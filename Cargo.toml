@@ -1,0 +1,11 @@
+[package]
+name = "graph_based_image_segmentation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = { version = "0.25.5", features = ["rayon"] }
+imageproc = "0.25.0"
+ndarray = "0.16.1"
+rand = "0.8.5"
+rayon = "1.10.0"
